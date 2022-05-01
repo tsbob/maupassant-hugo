@@ -130,6 +130,16 @@
     {{ template "_internal/google_analytics.html" . }}
 {{- end -}}
 
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?373001e6b31bdbe5af097497db157061";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 {{ if .Site.Params.busuanzi }}
     <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
 {{ end }}
